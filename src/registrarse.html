@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./../media/icons8-chaqueta-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../style.css">
+    <title>FalabellaBarato - Registrarse</title>
+</head>
+<body>
+    <header class="nav-main">
+    <h1>FALABELLA</h1>
+        <nav>
+            <ul class="navegador">
+                <li><a href="./../index.html">Falabella.com</a></li>
+                <li><a href="./sodimac.html">Sodimac</a></li>
+                <li><a href="./tottus.html">Tottus</a></li>
+                <li><a href="./linio.html">Linio</a></li>
+                <li><a href="./sesion.html">Inicia sesión</a></li>
+                <li><a href="./registrarse.html">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <header><h1>Registrarse</h1></header>
+        <form action="">
+            <div>
+                <label class="label" for="name">Nombre(s):</label><br>
+                <input type="text" id="name" placeholder="Ingrese nombre" required maxlength="30"><br>
+            </div>
+            <br>
+            <div>
+                <label class="label" for="lastname">Apellido(s):</label><br>
+                <input type="text" id="lastname" placeholder="Ingrese apelido(s)" required>
+            </div>
+            <br>
+            <div>
+                <label class="label" for="fec">Fecha de nacimiento</label><br>
+                <input type="date" id="fec">
+            </div>
+            <br>
+            <div>
+                <label class="label" for="gen">Genero:</label>
+                <select name="" id="gen">
+                    <option selected>Seleccione Genero</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="No especifica">No especifica</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label class="label" for="email">Correo electronico:</label><br>
+                <input type="email" id="email" placeholder="Ingresa tu correo electronico" maxlength="30" required><br>
+                <small>Ingrese usuario sin caracteres especiales</small>
+            </div>
+            <br>
+            <div>
+                <label class="label" for="doc">Tipo de documento:</label><br>
+                <select name="" id="doc">
+                    <option selected>Seleccione documento</option>
+                    <option value="DNI">DNI</option>
+                    <option value="CARNET DE EXTRANJERIA">CARNET DE EXTRANJERIA</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label class="label" for="cel">Celular</label><br>
+                <input type="tel" id="cel" required placeholder="Ingresa tu numero de celular">
+            </div>
+            <br>
+            <div>
+                <label class="label" for="pass">Ingrese contraseña:</label><br>
+                <input type="password" id="pass" placeholder="Ingrese contraseña" maxlength="10" required><br>
+            </div>
+            <br>
+            <div>
+                <label class="label" for="pass1">Repetir contraseña:</label><br>
+                <input type="password" id="pass1" placeholder="Repetir contraseña" maxlength="10" required><br>
+            </div><br>
+            <button class="btn" type="submit">Registrarse</button>
+            <p>
+                <small>¿ya tienes cuenta? <a href="./registrarse.html"><a href="./sesion.html">Inicia sesion</a></a></small>
+            </p>
+        </form>
+    </main>
+</body>
+</html>

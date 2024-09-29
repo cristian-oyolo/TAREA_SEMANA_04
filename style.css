@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Montserrat", sans-serif;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+}
+.card{
+    border: 3px double green;
+    padding: 20px;
+    margin: 20px;
+}
+.nav-main{
+    width: 100%;
+    border: 2px solid rgb(14, 160, 14);
+    border-radius: 15px;
+}
+.nav-main h1{
+    text-align: center;
+}
+nav{
+    /* border: 2px solid red; */
+    background-color: rgb(14, 160, 14);
+    border-radius: 15px;
+    padding: 5px;
+}
+.navegador{
+    /* border: 1px solid red; */
+    padding-left: 0px;
+}
+.navegador li{
+    /* border: 1px solid red; */
+    list-style: none;
+    text-align: center;
+    margin-top: 8px;
+    padding: 8px;
+}
+.navegador li a{
+    border: 1px solid;
+    text-decoration: none;
+    padding: 10px;
+    color:white;
+}
+.title{
+    color: rgba(117, 39, 39,0.85);
+    border: 3px double rgba(117, 39, 39,0.85) ;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card-title a{
+    color: rgba(117, 39, 39,0.85);
+}  
+.card-body{
+    color:brown;
+} 
+.btn{
+    background-color: rgb(99, 129, 146);
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+.card-footer{
+    /* border: 2px solid red; */
+    color:black;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.list-footer{
+    list-style: none;
+    text-align: center;
+    margin-top: 8px;
+    padding: 8px;
+}
+.img-footer{
+    width: 15px;
+    height: 15px;
+}
+label{
+    Color: rgb(38, 38, 175);
+}
+input{
+    border-radius: 5px;
+}
